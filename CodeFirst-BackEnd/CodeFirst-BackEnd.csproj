@@ -5,5 +5,9 @@
     <RootNamespace>CodeFirst_BackEnd</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.0" />
+  </ItemGroup>
+
 
 </Project>

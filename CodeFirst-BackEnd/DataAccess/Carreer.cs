@@ -12,6 +12,7 @@ namespace CodeFirst_BackEnd.DataAccess
         public int Duration { get; set; }
         public int Type { get; set; }
         public string Plan { get; set; }
+        public bool IsInternationalCertification { get; set; }
 
         public ICollection<Students> Students { get; set; }
 
